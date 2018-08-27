@@ -1,0 +1,27 @@
+* Logica gioco
+	** DONE [#A] algoritmo per far cadere le birre
+	** DONE caricamento immagini da cartelle aggiunte dagli utenti le cartelle si chiameranno girl0 girl1 girl2 ecc. con dentroa loro volta immagini 0.jpg 1.jpg
+	** TODO criptare immagini e decriptarle quando si gioca (solo le immagini giá incluse nel gioco)
+    ** TODO [#A] BUG se la cartella girlN é vuota nel menú rimane uno riquadro
+            vuoto che occupa spazio inutile
+	** DONE [#A] Fare un fottuto Game Over
+
+* Grafica
+	** DONE nel menu aggiungere la possibilitá di vedere immagini di altre ragazze nelle cartelle
+	** DONE Semplice navigazione nel menu per piú di tre girls
+	** TODO [#B] fare animazione decente quando passi sopra col mouse  alle ragazze nel menu
+	** DONE bestemmiare di piú quando c'é un segmentation fault e non andrá piú un cazzo
+                  perché ho dimenticato di inizializzare una variabile
+    ** TODO controllare le dimensioni della finestra e valutare se bloccarla
+    ** TODO Sistemare Posizione di tutti gli oggetti, fare un layout decente
+
+* Altro
+      ** DONE [#B] riguardare funzione che fa cadere le birre
+      ** DONE [#A] limitare la cassa entro i limiti di gioco
+      ** TODO [#B] non far prendere piú le birre se sono passate per metá oltre lo schermo anche se la cassa le tocca
+      ** TODO aggiungere qualche easter egg tipo una sttra figa nascosta
+      ** TODO aggiungere EULA ignorante
+      ** DONE sistemare SCONS compilation system
+      ** NEXT provare alinkare staticamente
+      ** DONE far funzionare il gioco su windows
+	  ** TODO OTTIMIZZARE MEMORIA, ELIMINARE MEMORY LEAK

@@ -1,0 +1,2 @@
+option('win_release_dir', type : 'string', value : 'release/winx64', description : '')
+option('linux_release_dir', type : 'string', value : 'release/linux64', description : '')
